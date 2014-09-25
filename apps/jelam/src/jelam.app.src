@@ -1,0 +1,12 @@
+{application, jelam,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { jelam_app, []}},
+  {env, []}
+ ]}.
