@@ -5,8 +5,10 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  lager,
+                  cowboy
                  ]},
   {mod, { jelam_app, []}},
-  {env, []}
+  {env, [{http_port, 8080}]}
  ]}.
