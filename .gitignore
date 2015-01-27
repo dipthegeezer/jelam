@@ -8,3 +8,4 @@ ebin
 _rel
 .concrete/DEV_MODE
 .rebar
+/log
